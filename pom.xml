@@ -7,9 +7,9 @@
   <version>1.0</version>
   <name>activity management</name>
   <url>http://maven.apache.org</url>
-  <configuration>
+  <properties>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
-            </configuration>
+            </properties>
   
   <dependencies>
     <dependency>
