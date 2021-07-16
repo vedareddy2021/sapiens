@@ -7,6 +7,9 @@
   <version>1.0</version>
   <name>activity management</name>
   <url>http://maven.apache.org</url>
+  <configuration>
+                <failOnMissingWebXml>false</failOnMissingWebXml>
+            </configuration>
   
   <dependencies>
     <dependency>
@@ -28,6 +31,16 @@
 		    <artifactId>jstl</artifactId>
 		    <version>1.2</version>
 		</dependency>
+		
+		 <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
+        </dependency>
+		<dependency>
+      <groupId>org.mortbay.jasper</groupId>
+      <artifactId>apache-jsp</artifactId>
+    </dependency>
 
   </dependencies>
   <build>
