@@ -11,7 +11,7 @@ public class databasecon
 		try
 		{
 			Class.forName("com.mysql.jdbc.Driver");	
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/activity","root","admin");
+			con = DriverManager.getConnection("jdbc:mysql://veda.clrjh7bcg8tr.us-east-2.rds.amazonaws.com/activity","veda","vedhareddy");
 		}
 		catch(Exception e)
 		{
