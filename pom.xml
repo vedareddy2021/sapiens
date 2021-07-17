@@ -36,7 +36,6 @@
 		</dependency>
  </dependencies>
  <build>
-    <finalName>index</finalName>
       <plugins>
 	  <plugin>            
    		<groupId>org.apache.maven.plugins</groupId>
