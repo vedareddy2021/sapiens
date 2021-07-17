@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.veda</groupId>
-  <artifactId>activity_management</artifactId>
+  <artifactId>activity</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
   <name>activity management</name>
@@ -36,6 +36,7 @@
 	  </dependencies>
   <build>
       <plugins>
+	<finalname>activity</finalname>
 	  <plugin>            
   	<groupId>org.apache.maven.plugins</groupId>
   	<artifactId>maven-war-plugin</artifactId>
