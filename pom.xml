@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.veda</groupId>
-  <artifactId>activity</artifactId>
+  <artifactId>activity_management</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
   <name>activity management</name>
@@ -15,7 +15,7 @@
       <scope>test</scope>
     </dependency>
 
-    <dependency>
+    		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
@@ -30,19 +30,18 @@
 		<dependency>
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
-			<version>8.0.24</version>
+		    <version>8.0.24</version>
 		    <scope>runtime</scope>
 		</dependency>
 	  </dependencies>
   <build>
-    <finalName>activity</finalName>
       <plugins>
 	  <plugin>            
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>3.3.1</version>
-</plugin>
-	  <plugin>
+  	<groupId>org.apache.maven.plugins</groupId>
+  	<artifactId>maven-war-plugin</artifactId>
+  	<version>3.3.1</version>
+       </plugin>
+	 		 <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
