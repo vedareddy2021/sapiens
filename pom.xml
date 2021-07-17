@@ -35,7 +35,7 @@
 		</dependency>
 	  </dependencies>
   <build>
-       <finalName>activity</finalName>
+       <finalName>sapiens</finalName>
       <plugins>
 	
 	  <plugin>            
