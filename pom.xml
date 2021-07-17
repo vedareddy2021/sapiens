@@ -36,13 +36,13 @@
 		</dependency>
  </dependencies>
  <build>
-<<<<<<< HEAD
 
-    <finalName>activity</finalName>
 
-=======
-    <finalName>activity</finalName>
->>>>>>> 3bf72e73e6ba5c58b5e745a2662d032a6eba2224
+
+
+
+
+
       <plugins>
 	  <plugin>            
    		<groupId>org.apache.maven.plugins</groupId>
