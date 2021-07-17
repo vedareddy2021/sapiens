@@ -36,10 +36,9 @@
 		</dependency>
  </dependencies>
  <build>
-<<<<<<< HEAD
+
     <finalName>activity</finalName>
-=======
->>>>>>> 466d8d4c078f7b93384d8ce93893d8bd0dcdba87
+
       <plugins>
 	  <plugin>            
    		<groupId>org.apache.maven.plugins</groupId>
